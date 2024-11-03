@@ -1,0 +1,31 @@
+.hero-section {
+    height: 100vh;
+    background: linear-gradient(to right, #6f42c1, #6610f2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: #fff;
+}
+
+.hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 10;
+    text-align: center;
+}
+
+.bg-muted {
+    background-color: #f8f9fa;
+}
+
+.sections {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
